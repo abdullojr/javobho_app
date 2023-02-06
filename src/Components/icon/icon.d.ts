@@ -1,5 +1,6 @@
 declare namespace IIcon {
   interface svgList {
+    plus: React.ReactNode;
     save: React.ReactNode;
     calendar: React.ReactNode;
     repost: React.ReactNode;
