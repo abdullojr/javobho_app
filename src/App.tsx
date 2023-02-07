@@ -1,11 +1,13 @@
 import "./App.scss";
+import { BrowserRouter } from "react-router-dom";
 import AppLayout from "./Layouts/App";
+import Routes from "Routes";
 
 function App() {
   return (
-    <div className="App">
-      <AppLayout />
-    </div>
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
   );
 }
 

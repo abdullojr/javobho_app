@@ -537,7 +537,7 @@ c59 26 118 79 144 130 17 32 21 58 21 135 0 83 -3 99 -24 133 -31 49 -100 108
       >
         <g
           transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-          fill="#000000"
+          fill="currentColor"
           stroke="none"
         >
           <path
@@ -564,7 +564,7 @@ m-2688 -1176 l-647 -648 0 1295 0 1295 647 -648 648 -647 -648 -647z m3873
       >
         <g
           transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-          fill="#000000"
+          fill="currentColor"
           stroke="none"
         >
           <path
@@ -1070,7 +1070,7 @@ m247 -286 c59 -28 2149 -2121 2171 -2172 21 -51 19 -94 -6 -144 -37 -77 -68
       >
         <g
           transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-          fill="#000000"
+          fill="currentColor"
           stroke="none"
         >
           <path
@@ -1106,7 +1106,7 @@ m210 -227 c23 -13 55 -42 72 -66 30 -43 30 -45 33 -190 l3 -147 -210 0 -211 0
       >
         <g
           transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-          fill="#000000"
+          fill="currentColor"
           stroke="none"
         >
           <path

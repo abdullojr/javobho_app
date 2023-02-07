@@ -1,0 +1,12 @@
+.app-outlet {
+  position: fixed;
+  bottom: 45px;
+  width: 100%;
+  height: calc(100vh - 100px);
+  overflow-y: scroll;
+  scrollbar-width: none !important;
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+}

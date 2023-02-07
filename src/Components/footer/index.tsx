@@ -1,25 +1,42 @@
+import { NavLink } from "react-router-dom";
 import Icon from "../icon";
+import IFooter from "./IFooter";
 import "./styles.scss";
+
+const nav: IFooter.nav[] = [
+  { name: "Home", path: "/", icon: "home", activeIcon: "homeFilled" },
+  {
+    name: "Explore",
+    path: "/explore",
+    icon: "explore",
+    activeIcon: "exploreFilled",
+  },
+  {
+    name: "Notifications",
+    path: "/notifications",
+    icon: "note",
+    activeIcon: "noteFilled",
+  },
+  {
+    name: "Messages",
+    path: "/messages",
+    icon: "message",
+    activeIcon: "messageFilled",
+  },
+];
 
 const Footer = () => {
   return (
     <div className="footer">
-      {true ? (
-        <Icon name="home" size={18} />
-      ) : (
-        <Icon name="homeFilled" size={18} />
-      )}
-      {true ? (
-        <Icon name="explore" size={18} />
-      ) : (
-        <Icon name="exploreFilled" size={18} />
-      )}
-      <Icon name="home" size={18} />
-      {true ? (
-        <Icon name="profile" size={18} />
-      ) : (
-        <Icon name="profileFilled" size={18} />
-      )}
+      {nav.map(item => (
+        <NavLink end draggable={false} key={item.path} to={item.path}>
+          {({ isActive }) => (
+            <div className="color_main">
+              <Icon name={isActive ? item.activeIcon : item.icon} />
+            </div>
+          )}
+        </NavLink>
+      ))}
     </div>
   );
 };
