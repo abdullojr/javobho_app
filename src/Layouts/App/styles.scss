@@ -1,8 +1,10 @@
 .app-outlet {
-  position: fixed;
-  bottom: 45px;
+  position: absolute;
+  border: 1px solid black;
+  top: 50px;
+  bottom: 50px;
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 110px);
   overflow-y: scroll;
   scrollbar-width: none !important;
   z-index: -1;
