@@ -14,6 +14,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+
+    border-bottom: 0.3px solid rgba(0, 0, 0, 0.2);
     span {
       font-weight: 600;
       font-size: 18px;
@@ -23,6 +25,36 @@
   .close-btn {
     cursor: pointer;
     width: max-content;
+  }
+}
+
+.account-full-info {
+  display: flex;
+  flex-direction: column;
+
+  .profile_img {
+    padding: 10px;
+  }
+
+  .username {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+
+    b {
+      font-weight: 500;
+    }
+  }
+  .follow-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 14px;
+
+    .simple_text {
+      color: rgba(0, 0, 0, 0.466);
+    }
   }
 }
 
