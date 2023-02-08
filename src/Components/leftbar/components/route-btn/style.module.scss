@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  color: black;
+
+  &:hover {
+    background-color: rgba(27, 66, 63, 0.192);
+  }
+
+  .children {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+  }
+
+  span {
+    padding: 15px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
