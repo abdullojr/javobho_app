@@ -18,7 +18,7 @@ const Application = () => {
       <h1>appllication</h1>
       <h1>appllication</h1>
       <h1>appllication</h1>
-      <h1>appllication </h1>
+      <h1>appllication1</h1>
       <h1>appllication 0</h1>
     </>
   );
