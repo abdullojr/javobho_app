@@ -60,15 +60,15 @@ const LeftBar = (props: ILeftBar.props) => {
             />
           </div>
           <div className="username">
-            <h3>Nozimjon</h3>
+            <h3>Username</h3>
             <b>@{"username"}</b>
           </div>
           <div className="follow-info">
             <span>
-              <b>{64}</b> <b className="simple_text">Following</b>
+              <b>{0}</b> <b className="simple_text">Following</b>
             </span>
             <span>
-              <b>{18}</b> <b className="simple_text">Follower</b>
+              <b>{0}</b> <b className="simple_text">Follower</b>
             </span>
           </div>
         </div>
