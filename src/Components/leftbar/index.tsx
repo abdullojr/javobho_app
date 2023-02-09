@@ -6,36 +6,37 @@ import { NavLink } from "react-router-dom";
 import { NavBtn } from "./components/route-btn";
 import IRouteBtn from "./components/route-btn/IRouteBtn";
 import img from "assets/img/profile.png";
+import { apiPaths } from "api/constants/api-paths";
 
 const LeftBar = (props: ILeftBar.props) => {
   const nav: IRouteBtn.navProps[] = [
     {
       name: "Profile",
-      path: "/profile",
+      path: apiPaths.application.profile,
       icon: "profile",
       activeIcon: "profileFilled",
     },
     {
       name: "Topics",
-      path: "",
+      path: apiPaths.application.topics,
       icon: "topics",
       activeIcon: "topics",
     },
     {
       name: "Bookmarks",
-      path: "",
+      path: apiPaths.application.bookmarks,
       icon: "bookmarks",
       activeIcon: "bookmarksFilled",
     },
     {
       name: "Lists",
-      path: "",
+      path: apiPaths.application.lists,
       icon: "lists",
       activeIcon: "listsFilled",
     },
     {
       name: "Bookshelf",
-      path: "",
+      path: apiPaths.application.bookshelfs,
       icon: "lists",
       activeIcon: "listsFilled",
     },
