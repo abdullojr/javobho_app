@@ -4,6 +4,7 @@ import Application from "Pages/Application";
 import Explore from "Pages/Explore";
 import Messages from "Pages/Messages";
 import Notifications from "Pages/Notification";
+import ba from "assets/img/ba.png";
 
 const Routes = () => {
   const routes = useRoutes([
@@ -31,7 +32,19 @@ const Routes = () => {
       ],
     },
   ]);
-  return <>{routes}</>;
+  return (
+    <>
+      {" "}
+      <img
+        src={ba}
+        alt="background"
+        style={{
+          width: "100%",
+          height: "100vh",
+        }}
+      />
+    </>
+  );
 };
 
 export default Routes;

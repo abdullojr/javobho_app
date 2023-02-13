@@ -1,0 +1,19 @@
+.container {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  border-top: 0.3px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 0.3px solid rgba(0, 0, 0, 0.3);
+
+  .userProfileImage {
+    margin: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+  }
+
+  .content {
+    border: 1px solid red;
+    width: 80%;
+  }
+}
